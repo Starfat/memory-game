@@ -1,5 +1,5 @@
 /*
-ColoredPanel
+ColoredPanel Testing new branch
 - skal spesialisere JPanel.
 - skal huske sin tildelte farge
 - skal ha metoder som kan sette bakgrunnen til nøytral (for eksempel lysegrå) og til den fargen den har fått tildelt.
