@@ -30,22 +30,4 @@ ColoredPanel
 Programdesign
 Listen med fire klasser som du nå har lest gjennom, er et enkelt "programdesign". I denne oppgaven må du følge dette programdesignet nøyaktig.
 
-Støtte i rammeverket
-For å finne tilfeldige verdier, som for eksempel indekser i et array, kan du bruke klassen Random.
-Hvis arrayet har for eksempel tre farger, vil du kunne instansiere klassen Random slik:
-Random r = new Random();
-Og deretter finne en tilfeldig verdi slik:
-index = r.nextInt(3);
 
-Eller hvis arrayet med farger heter colors, er denne løsningen enda bedre:
-
-index = r.nextInt(colors.length);
-
-Hvis GamePanel har fått meldingen add flere ganger slik at den inneholder flere komponenter, kan du finne antallet slik:
-getComponentCount()
-
-Du kan finne hver enkelt komponent slik:
-getComponent(x)
-
-Du kan type-konvertere hver komponent slik:
-(ColoredPanel) getComponent(i)
